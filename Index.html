@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TikTok Downloader – No Watermark</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen p-6">
+  <div class="bg-white p-8 rounded-xl shadow-lg w-full max-w-lg text-center">
+    <h1 class="text-2xl font-bold mb-4">TikTok Downloader (No Watermark)</h1>
+    <p class="mb-6 text-gray-600">Paste your TikTok URL below:</p>
+
+    <input id="url" placeholder="https://www.tiktok.com/@user/video/123..." class="w-full p-3 border rounded mb-4" />
+    <button onclick="download()" class="bg-blue-500 text-white px-6 py-3 rounded hover:bg-blue-600">Download</button>
+
+    <div class="result mt-6 text-blue-600" id="result"></div>
+
+    <div class="mt-8 text-gray-500 text-sm">
+      <a href="privacy.html" class="hover:underline mr-4">Privacy Policy</a>
+      <a href="terms.html" class="hover:underline">Terms of Use</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
